@@ -1,0 +1,164 @@
+body{
+	font-family: 'Saira Semi Condensed', sans-serif;
+}
+
+.cn1{
+	width: 100%;
+	height: 600px;
+}
+
+.cnn1{
+	top: 200px;
+}
+
+.cnn1>h1{
+	font-size: 70px;
+	font-weight: 900;
+}
+
+.cnn2{
+	border: 2px solid black;
+	border-radius: 20px;
+	height: 450px;
+	padding: 30px 20px 20px;
+	top: 50px;
+	box-shadow: 5px 5px 10px black;
+}
+
+.cnn2>h4{
+	font-size: 20px;
+}
+
+.lab1{
+	font-size: 30px;
+}
+
+.cn2>h1{
+	font-weight: 900;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.tm1>h3{
+	font-weight: bold;
+}
+
+.tm1>p{
+	margin-bottom: 15px;
+}
+
+.cn3{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+.img_size{
+	height:60px;
+	width:120px;
+}
+
+.cn4{
+	height: 100px;
+	background-color:#494D5F;
+	margin-top: 30px;
+	color: white;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+.cnn4{
+	margin-top: 20px;
+}
+
+.p1{
+	margin-left: 30px;
+}
+
+.si > h1{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-weight: bolder;
+	font-size: 40px;
+}
+
+
+.cn44{
+	position: fixed;
+	height: 100px;
+	background-color:#494D5F;
+	margin-top: 30px;
+	color: white;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+}
+
+
+
+.card__box{
+	height: 350px;
+	width: 380px;
+	padding: 10px 5px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+
+}
+
+.card__box > img{
+	height: 200px;
+	width: 360px;
+} 
+
+.card__full > h1{
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 40px;
+}
+
+.card__full > p{
+	font-weight: lighter;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+
+
+@media screen and (max-width: 767px){
+	.cn1{
+	width: auto;
+	height: 800px;
+	}
+	.cnn1 {
+		top: 0;
+	}
+	.cnn2{
+		top:0;
+		width:auto;
+	}
+	.cn2>h1{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	
+	.img_size{
+		height:30px;
+		width:60px;
+	}
+	
+}
+
+@media screen and (max-width: 992px){
+	.cn1{
+	width: auto;
+	height: 800px;
+	}
+	.cnn1 {
+		top: 0;
+	}
+}
+
+
